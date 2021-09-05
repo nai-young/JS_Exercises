@@ -1,0 +1,22 @@
+<!-- Write a JavaScript program to get the website URL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Return URL</title>
+  
+</head>
+<body>
+  <main>
+    <h1>Return current URL</h1>
+    <p>Method 1: <span id="container1"></span></p>
+    <p>Method 2: <span id="container2"></span></p>
+  </main>
+</body>
+<script>
+    document.getElementById("container1").innerHTML = document.URL
+    document.getElementById("container2").innerHTML = window.location.href
+</script>
+</html>
